@@ -1,0 +1,103 @@
+/* This covers the font across the website. This was taken directly from the source */
+@font-face {
+font-family: "Flame";
+src: url(Flame-Regular.woff2);
+}
+@font-face {
+font-family: "Flame Sans";
+src: url(FlameSans-Regular.woff2);
+}
+*{
+  font-family: Flame ;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+/* This covers the layout of the website to ensure it sits flush. also covers the overall background colour */
+body{
+  background-color: #f5ebdc ;
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+}
+/* The following covers the formatting of my nav bar and the first header */
+#toplogo{
+  padding-left: 160px;
+  height: 16mm;
+  width: 15mm;
+}
+#lines{
+  margin-right:3mm;
+}
+.navbar{
+  align-items:center;
+  display: flex;
+  margin-left: 20px;
+}
+.navbut{
+  border-color: transparent;
+  background-color: transparent;
+  margin-top:1mm;
+  margin-right:1mm;
+  color: #4e2414;
+  font-size: 20px;
+}
+.checkout{
+  align-items: right;
+  margin-top:1mm;
+  left:1100px;
+  border-radius: 28px;
+  background-color: #4e2414;
+  border-color: transparent;
+  padding: 5px 15px 5px 15px;
+  color:white;
+  position: absolute;
+  text-decoration: none;
+}
+.signup{
+  align-items: right;
+  margin-top:1mm;
+  left:900px;
+  border-radius: 28px;
+  background-color: red;
+  border-color: transparent;
+  color:white;
+  margin-left: 100px;
+  position: absolute;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+}
+#toptxt{
+  position:absolute;
+  margin-left: 680px;
+  color: #4e2414;
+}
+.ybkc{
+  border-style: solid;
+  background-color: #4e2414 ;
+  border-color: transparent;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+#ybktxt{
+  color: white;
+  padding-left: 5px;
+  margin-top: -5px;
+}
+#ybkbtn{
+  position: relative;
+  margin-left: 1050px;
+  top: -40px;
+  border-radius: 28px;
+  border-style: solid;
+  border-color: white;
+  background:transparent;
+  color:white;
+  padding: 5px 15px 5px 15px;
+  border-width: 1px;
+  text-decoration: none;
+}
+
+
